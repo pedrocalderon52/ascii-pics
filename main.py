@@ -4,7 +4,7 @@ import pyperclip as ppc
 gray_scale = ["@@", "%%", "##", "**", "++", "==", "--", "::", "..", "  "]
 
 
-img = Image.open("image.png")
+img = Image.open("cr7.png")
 img_cinza = img.convert("L")
 img_cinza = img_cinza.resize((600, 600))
 
